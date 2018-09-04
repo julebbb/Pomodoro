@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Pomodoro</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,7 +15,6 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -24,7 +23,34 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
+  <section>
+    <h1>Pomodoro</h1>
 
+
+    <p>Temps de pause</p>
+    <div >
+      <button type="button" class="timer" name="button">-</button>
+      <p id="timeBreak">1</p>
+      <button type="button" class="timer" name="button">+</button>
+    </div>
+
+
+    <p>Temps de session</p>
+    <div >
+      <button type="button" class="timer" name="button">-</button>
+      <p id="timeSession">25</p>
+      <button type="button" class="timer" name="button">+</button>
+    </div>
+
+    <div >
+      <button type="button" class="start timer" name="button">Start</button>
+      <button type="button"  class="pause timer" name="button">Pause</button>
+      <p>Break</p>
+      <p>Session</p>
+      <p id="time"></p>
+    </div>
+
+  </section>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -34,6 +60,7 @@
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
+
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>

@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    LEBBRECHT Justine -- Developpement -- https://github.com/julebbb https://twitter.com/LebbrechtJ
 
 # THANKS
 
