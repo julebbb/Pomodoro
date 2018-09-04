@@ -1,4 +1,4 @@
-#Pamodoro
+# Pomodoro
 
 For my formation Yes We Web, I need to make a Pamodoro for more understand the programing with jQuery.
 
