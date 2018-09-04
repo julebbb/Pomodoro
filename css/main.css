@@ -97,11 +97,74 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  color: lavender;
+  background-color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  overflow: hidden;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+#time {
+  border: 1px solid aliceblue;
+  border-radius: 51px;
+  width: 100px;
+  height: 100px;
+  line-height: 4;
+  color: black;
+  background-color: cadetblue;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+}
+
+section div:nth-child(3), section div:nth-child(5) {
+  display: flex;
+  justify-content: center;
+}
+
+section div:nth-child(3) p, section div:nth-child(5) p {
+  margin: 0 35px;
+}
+
+.bande {
+  bottom: 0;
+}
+
+section div:last-child {
+  top: 50vh;
+}
+
+section div:last-child, .bande {
+  width: 200px;
+  height: 242vh;
+  background: cadetblue;
+  position: absolute;
+  transform: rotate(35deg);
+  z-index: -1;
+}
+
+button[type='button'] {
+  border: 1px solid aliceblue;
+  background: cadetblue;
+  color: black;
+  border-radius: 5px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
 
 
 
-
-
+.pause, .start {
+  margin: 14px auto;
+}
 
 
 
